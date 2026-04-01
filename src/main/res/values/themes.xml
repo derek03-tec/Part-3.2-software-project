@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SolarDesignBuddy" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/midnight_navy</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.SolarDesignBuddy" parent="Base.Theme.SolarDesignBuddy" />
+
+    <!-- Widget Styles -->
+    <style name="Widget.App.GlassCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">#1AFFFFFF</item> <!-- 10% White -->
+        <item name="cardCornerRadius">20dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#33FFFFFF</item> <!-- 20% White -->
+    </style>
+
+    <style name="Widget.App.RecessedInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">#1AFFFFFF</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">#94A3B8</item>
+        <item name="android:textColorHint">#94A3B8</item>
+        <item name="startIconTint">#94A3B8</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SolarDesignBuddy</string>
+    <string name="title_solar_design_buddy">SolarDesignBuddy</string>
+    <string name="system_ratings">System Ratings</string>
+    <string name="pv_power_w">PV Power (W)</string>
+    <string name="pv_voltage_v">PV Voltage (V)</string>
+    <string name="current_isc_a">Current Isc (A)</string>
+    <string name="battery_voltage_v">Battery Voltage (V)</string>
+    <string name="cable_distances">Cable Distances</string>
+    <string name="panels_to_fuse_box_m">Panels to Fuse Box (m)</string>
+    <string name="fuse_box_to_inverter_m">Fuse Box to Inverter (m)</string>
+    <string name="inverter_to_battery_bank_m">Inverter to Battery Bank (m)</string>
+    <string name="calculate_specs">Calculate Specs</string>
+    <string name="ready_for_calculation">Ready for calculation...</string>
+    <string name="solar_panel_icon_description">Solar panel icon</string>
+    <string name="battery_icon_description">Battery icon</string>
+
+    <!-- MainActivity Strings -->
+    <string name="pv_voltage_cannot_be_zero">PV Voltage cannot be zero.</string>
+    <string name="battery_voltage_cannot_be_zero">Battery Voltage cannot be zero.</string>
+    <string name="solar_sizing_report">SOLAR SIZING REPORT</string>
+    <string name="pv_to_fuse_box_report">1. PV To Fuse Box:\n   Required: %1$s mm²\n   Standard: %2$s mm²</string>
+    <string name="fuse_box_to_inverter_report">2. Fuse Box To Inverter:\n   Required: %1$s mm²\n   Standard: %2$s mm²</string>
+    <string name="inverter_to_battery_report">3. Inverter To Battery:\n   Current: %1$s A\n   Required: %2$s mm²\n   Standard: %3$s mm²</string>
+    <string name="protection_report">PROTECTION\nPV Fuse: %1$s A\nBatt Breaker: %2$s A</string>
+    <string name="error_message">Error: %1$s</string>
+    <string name="please_fill_in_the_field">Please fill in the %1$s field.</string>
+    <string name="invalid_number_format_in_field">Invalid number format in %1$s.</string>
+</resources>
